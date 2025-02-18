@@ -85,7 +85,7 @@ function Header() {
             <Dialog open={OpenBox} onOpenChange={setOpenBox}>
                 <DialogContent className='bg-white'>
                     <DialogHeader>
-                        <DialogTitle>Are you absolutely sure?</DialogTitle>
+                        {/* <DialogTitle>Are you absolutely sure?</DialogTitle> */}
                         <DialogDescription>
                             <img src="/logo.svg" />
                             <h2 className='font-bold'>TRAVELLER</h2>
